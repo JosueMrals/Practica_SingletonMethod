@@ -5,9 +5,9 @@ public class DocumentacionEnBlanco {
 
     private static DocumentacionEnBlanco _instance = null;
 
-    private DocumentacionEnBlanco()
+    private <Documento> DocumentacionEnBlanco()
     {
-        documentos = new ArrayList<Documento>();
+        ArrayList<Documento> documentos = new ArrayList<Documento>();
     }
 
     public static DocumentacionEnBlanco Instance()
